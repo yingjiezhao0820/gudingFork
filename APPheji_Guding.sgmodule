@@ -192,6 +192,10 @@ everyday= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\
 # DreamFace
 DreamFace= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login,script-path=https://raw.githubusercontent.com/Guding88/Script/main/DreamFace.js
 
+# Athlytic
+Athlytic= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(www\.)?athlyticapp\.com\/*,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Athlytic.js
+
+
 
 
 [MITM]
